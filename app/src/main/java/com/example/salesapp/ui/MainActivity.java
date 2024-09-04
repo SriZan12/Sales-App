@@ -31,6 +31,12 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
+/**
+ * The app is built on MVVM Architecture with JAVA.
+ * It contains the single activity 'MainActivity'.
+ * Room Database is used for CRUD operations on Sales.
+ * */
+
 public class MainActivity extends AppCompatActivity implements OnSaleActionListener {
 
     private ActivityMainBinding binding;
