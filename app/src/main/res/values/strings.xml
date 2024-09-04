@@ -10,5 +10,5 @@
     <string name="show_total">Show total</string>
     <string name="info">Info</string>
     <string name="total_sales_for_the_month">Total Sales for the Month</string>
-    <string name="filter_by_date">Filter by Date</string>
+    <string name="filter_by_month">Filter by Month</string>
 </resources>

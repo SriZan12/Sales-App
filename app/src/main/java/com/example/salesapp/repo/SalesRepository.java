@@ -12,6 +12,11 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Utilizes ExecutorService for asynchronous database operations.
+ */
+
+
 public class SalesRepository {
     private final SaleDao saleDao;
     private final ExecutorService executorService;
@@ -34,7 +39,7 @@ public class SalesRepository {
         return saleDao.getSalesBetweenDates();
     }
 
-    public void deleteSaleById(int id){
+    public void deleteSaleById(int id) {
         executorService.execute(() -> saleDao.deleteSaleById(id));
     }
 }

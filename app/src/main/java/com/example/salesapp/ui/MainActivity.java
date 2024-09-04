@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements OnSaleActionListe
         });
 
         new AlertDialog.Builder(this)
-                .setTitle(R.string.sales_form)
+                .setTitle(R.string.total_sales_for_the_month)
                 .setView(dialogBinding.getRoot())
                 .setPositiveButton(android.R.string.ok, (dialog, which) -> {
                     dialog.dismiss();

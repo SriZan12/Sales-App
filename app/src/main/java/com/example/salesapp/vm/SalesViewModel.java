@@ -23,7 +23,6 @@ public class SalesViewModel extends ViewModel {
         return repository.getMonthlySales(month);
     }
 
-
     public LiveData<List<SalesEntities>> getSalesBetweenDates() {
         return repository.getSalesBetweenDates();
     }

@@ -27,7 +27,7 @@
         android:id="@+id/button_filter_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/filter_by_date"
+        android:text="@string/filter_by_month"
         android:layout_marginTop="16dp"
         android:layout_gravity="center_horizontal"/>
 
